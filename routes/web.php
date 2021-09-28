@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/submit_url', 'urlsController@submit_url');
+Route::post('/generate_code', 'urlsController@generate_code');

@@ -7,6 +7,7 @@
         <script src="{{ asset('bootstrap-5/js/bootstrap.min.js') }}" crossorigin="anonymous"></script>
         <title>Laravel</title>
 
+        <meta name="csrf-token" content="{{csrf_token()}}">
     </head>
     <body>
         @include('inc.navbar')

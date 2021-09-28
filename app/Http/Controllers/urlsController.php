@@ -12,4 +12,12 @@ class urlsController extends Controller
         );
         return view('submitUrl')->with($data);
     }
+
+    public function generate_code(Request $req){
+        /* $data = array(
+            'title' => 'Generate Url code',
+            'data'=> $req
+        ); */
+        //return view('generate_code')->with($req);
+    }
 }
